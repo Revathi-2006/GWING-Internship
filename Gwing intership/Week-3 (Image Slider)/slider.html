@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Slider with Numbers</title>
+  <link rel="stylesheet" href="slider.css">
+</head>
+<body>
+  <section class="slider">
+    <!-- Each image inside a container with number -->
+    <div class="slide-container">
+      <span class="slide-number">1</span>
+      <img class="slides" src="img1.jpg" alt="Image 1">
+    </div>
+    
+    <div class="slide-container">
+      <span class="slide-number">2</span>
+      <img class="slides" src="img2.jpg" alt="Image 2">
+    </div>
+    
+    <div class="slide-container">
+      <span class="slide-number">3</span>
+      <img class="slides" src="img3.jpg" alt="Image 3">
+    </div>
+
+    <div class="slide-container">
+      <span class="slide-number">4</span>
+      <img class="slides" src="img4.jpg" alt="Image 4">
+    </div>
+
+    <div class="slide-container">
+      <span class="slide-number">5</span>
+      <img class="slides" src="img5.jpeg" alt="Image 5">
+    </div>
+
+    <!-- Navigation Buttons -->
+    <button class="prev" onclick="changeSlide(-1)">❮ Prev</button>
+    <button class="next" onclick="changeSlide(1)">Next ❯</button>
+  </section>
+
+  <script src="slider.js"></script>
+</body>
+</html>
